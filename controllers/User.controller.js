@@ -24,4 +24,14 @@ exports.createUser = async (req,res) => {
         console.log('error in createUser controller',error)
         return res.status(400).send({'message':'something went wrong'})
     }
+
+
+
+
+
+
+
+
+    
+
  }
