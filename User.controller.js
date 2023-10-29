@@ -4,6 +4,10 @@ const UUID = require('uuid')
 exports.createUser = async (req,res) => {
     try {
 
+
+
+        
+
         const {body} = req
         const {name,loginId ,password ,mobile ,email ,access ,acessAvailability } = body
         
